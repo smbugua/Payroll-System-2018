@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4f22fb6f-6385-4291-ba93-4cecba10f90b" name="Default" comment="" />
+    <ignored path="fleetmanage.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="fleetmanage" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="1.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/1.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="43" selection-end-column="6" />
+              <folding>
+                <marker date="1495565506754" expanded="true" signature="365:393" placeholder="select bcode... banks" />
+                <marker date="1495565506754" expanded="true" signature="1044:1077" placeholder="select code,... bankbranch" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/morris" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/vouchersadd.php" />
+        <option value="$PROJECT_DIR$/addvoucher.php" />
+        <option value="$PROJECT_DIR$/vouchers.php" />
+        <option value="$PROJECT_DIR$/dbbackup.php" />
+        <option value="$PROJECT_DIR$/selectproduct.php" />
+        <option value="$PROJECT_DIR$/stockclass.php" />
+        <option value="$PROJECT_DIR$/1.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="NamedScopeManager">
+    <scope name="Simon Mbugua" pattern="" />
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="width" value="1612" />
+    <option name="height" value="867" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../drawgift" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ChromiumRemoteDebugType" factoryName="Chromium Remote">
+      <method />
+    </configuration>
+    <configuration default="true" type="FirefoxRemoteDebugType" factoryName="Firefox Remote">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4f22fb6f-6385-4291-ba93-4cecba10f90b" name="Default" comment="" />
+      <created>1476443861489</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1476443861489</updated>
+      <workItem from="1476443863173" duration="5845000" />
+      <workItem from="1476636076464" duration="20000" />
+      <workItem from="1476699400680" duration="620000" />
+      <workItem from="1479825511642" duration="7313000" />
+      <workItem from="1480072928396" duration="227000" />
+      <workItem from="1480073157364" duration="5000" />
+      <workItem from="1480073180044" duration="680000" />
+      <workItem from="1480528328220" duration="599000" />
+      <workItem from="1482494913643" duration="598000" />
+      <workItem from="1483602597710" duration="634000" />
+      <workItem from="1486632060779" duration="135000" />
+      <workItem from="1486670456304" duration="599000" />
+      <workItem from="1488139156998" duration="98000" />
+      <workItem from="1495562533024" duration="1987000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="19360000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="0" width="1612" height="867" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10593491" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914925" sideWeight="0.49743262" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914925" sideWeight="0.51341283" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35558408" sideWeight="0.4865872" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24967907" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1918919" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914925" sideWeight="0.4948652" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914925" sideWeight="0.49743262" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914925" sideWeight="0.51341283" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914925" sideWeight="0.4948652" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35558408" sideWeight="0.4865872" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1918919" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10593491" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24967907" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/stockclass.php</url>
+          <line>79</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/stockclass.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4582">
+          <caret line="158" column="19" selection-start-line="158" selection-start-column="19" selection-end-line="158" selection-end-column="19" />
+          <folding>
+            <marker date="1480085327008" expanded="true" signature="83:259" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="145:186" placeholder="INSERT INTO category... " />
+            <marker date="1480085327008" expanded="true" signature="321:737" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="339:734" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="468:512" placeholder="UPDATE categ... " />
+            <marker date="1480085327008" expanded="true" signature="549:678" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="686:727" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="799:948" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="844:879" placeholder="DELETE FROM " />
+            <marker date="1480085327008" expanded="true" signature="1004:1287" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="1139:1220" placeholder="UPDATE produ... " />
+            <marker date="1480085327008" expanded="true" signature="1347:1493" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="1392:1427" placeholder="DELETE FROM " />
+            <marker date="1480085327008" expanded="true" signature="1577:1670" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="1738:1831" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="1907:2000" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="2072:3658" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="2797:2885" placeholder="SELECT COUNT... stock" />
+            <marker date="1480085327008" expanded="true" signature="2955:3143" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="2977:3135" placeholder="INSERT INTO stock... " />
+            <marker date="1480085327008" expanded="true" signature="3161:3259" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="3183:3250" placeholder="UPDATE stock... " />
+            <marker date="1480085327008" expanded="true" signature="3291:3571" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="3292:3569" placeholder="INSERT INTO stockmoves... " />
+            <marker date="1480085327008" expanded="true" signature="3718:5174" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="4310:4817" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="4856:5090" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="4857:5088" placeholder="INSERT INTO stockmoves... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stockclass.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4582">
+          <caret line="158" column="19" selection-start-line="158" selection-start-column="19" selection-end-line="158" selection-end-column="19" />
+          <folding>
+            <marker date="1480085327008" expanded="true" signature="83:259" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="145:186" placeholder="INSERT INTO category... " />
+            <marker date="1480085327008" expanded="true" signature="321:737" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="339:734" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="468:512" placeholder="UPDATE categ... " />
+            <marker date="1480085327008" expanded="true" signature="549:678" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="686:727" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="799:948" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="844:879" placeholder="DELETE FROM " />
+            <marker date="1480085327008" expanded="true" signature="1004:1287" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="1139:1220" placeholder="UPDATE produ... " />
+            <marker date="1480085327008" expanded="true" signature="1347:1493" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="1392:1427" placeholder="DELETE FROM " />
+            <marker date="1480085327008" expanded="true" signature="1577:1670" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="1738:1831" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="1907:2000" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="2072:3658" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="2797:2885" placeholder="SELECT COUNT... stock" />
+            <marker date="1480085327008" expanded="true" signature="2955:3143" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="2977:3135" placeholder="INSERT INTO stock... " />
+            <marker date="1480085327008" expanded="true" signature="3161:3259" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="3183:3250" placeholder="UPDATE stock... " />
+            <marker date="1480085327008" expanded="true" signature="3291:3571" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="3292:3569" placeholder="INSERT INTO stockmoves... " />
+            <marker date="1480085327008" expanded="true" signature="3718:5174" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="4310:4817" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="4856:5090" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="4857:5088" placeholder="INSERT INTO stockmoves... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stockclass.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4582">
+          <caret line="158" column="19" selection-start-line="158" selection-start-column="19" selection-end-line="158" selection-end-column="19" />
+          <folding>
+            <marker date="1480085327008" expanded="true" signature="83:259" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="145:186" placeholder="INSERT INTO category... " />
+            <marker date="1480085327008" expanded="true" signature="321:737" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="339:734" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="468:512" placeholder="UPDATE categ... " />
+            <marker date="1480085327008" expanded="true" signature="549:678" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="686:727" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="799:948" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="844:879" placeholder="DELETE FROM " />
+            <marker date="1480085327008" expanded="true" signature="1004:1287" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="1139:1220" placeholder="UPDATE produ... " />
+            <marker date="1480085327008" expanded="true" signature="1347:1493" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="1392:1427" placeholder="DELETE FROM " />
+            <marker date="1480085327008" expanded="true" signature="1577:1670" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="1738:1831" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="1907:2000" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="2072:3658" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="2797:2885" placeholder="SELECT COUNT... stock" />
+            <marker date="1480085327008" expanded="true" signature="2955:3143" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="2977:3135" placeholder="INSERT INTO stock... " />
+            <marker date="1480085327008" expanded="true" signature="3161:3259" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="3183:3250" placeholder="UPDATE stock... " />
+            <marker date="1480085327008" expanded="true" signature="3291:3571" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="3292:3569" placeholder="INSERT INTO stockmoves... " />
+            <marker date="1480085327008" expanded="true" signature="3718:5174" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="4310:4817" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="4856:5090" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="4857:5088" placeholder="INSERT INTO stockmoves... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stockclass.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4205">
+          <caret line="145" column="0" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
+          <folding>
+            <marker date="1480085327008" expanded="true" signature="83:259" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="145:186" placeholder="INSERT INTO category... " />
+            <marker date="1480085327008" expanded="true" signature="321:737" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="339:734" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="468:512" placeholder="UPDATE categ... " />
+            <marker date="1480085327008" expanded="true" signature="549:678" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="686:727" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="799:948" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="844:879" placeholder="DELETE FROM " />
+            <marker date="1480085327008" expanded="true" signature="1004:1287" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="1139:1220" placeholder="UPDATE produ... " />
+            <marker date="1480085327008" expanded="true" signature="1347:1493" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="1392:1427" placeholder="DELETE FROM " />
+            <marker date="1480085327008" expanded="true" signature="1577:1670" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="1738:1831" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="1907:2000" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="2072:3658" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="2797:2885" placeholder="SELECT COUNT... stock" />
+            <marker date="1480085327008" expanded="true" signature="2955:3143" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="2977:3135" placeholder="INSERT INTO stock... " />
+            <marker date="1480085327008" expanded="true" signature="3161:3259" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="3183:3250" placeholder="UPDATE stock... " />
+            <marker date="1480085327008" expanded="true" signature="3291:3571" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="3292:3569" placeholder="INSERT INTO stockmoves... " />
+            <marker date="1480085327008" expanded="true" signature="3718:5174" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="4310:4817" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="4856:5090" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="4857:5088" placeholder="INSERT INTO stockmoves... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stockclass.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4205">
+          <caret line="145" column="0" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
+          <folding>
+            <marker date="1480085327008" expanded="true" signature="83:259" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="145:186" placeholder="INSERT INTO category... " />
+            <marker date="1480085327008" expanded="true" signature="321:737" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="339:734" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="468:512" placeholder="UPDATE categ... " />
+            <marker date="1480085327008" expanded="true" signature="549:678" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="686:727" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="799:948" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="844:879" placeholder="DELETE FROM " />
+            <marker date="1480085327008" expanded="true" signature="1004:1287" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="1139:1220" placeholder="UPDATE produ... " />
+            <marker date="1480085327008" expanded="true" signature="1347:1493" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="1392:1427" placeholder="DELETE FROM " />
+            <marker date="1480085327008" expanded="true" signature="1577:1670" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="1738:1831" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="1907:2000" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="2072:3658" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="2797:2885" placeholder="SELECT COUNT... stock" />
+            <marker date="1480085327008" expanded="true" signature="2955:3143" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="2977:3135" placeholder="INSERT INTO stock... " />
+            <marker date="1480085327008" expanded="true" signature="3161:3259" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="3183:3250" placeholder="UPDATE stock... " />
+            <marker date="1480085327008" expanded="true" signature="3291:3571" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="3292:3569" placeholder="INSERT INTO stockmoves... " />
+            <marker date="1480085327008" expanded="true" signature="3718:5174" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="4310:4817" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="4856:5090" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="4857:5088" placeholder="INSERT INTO stockmoves... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stockclass.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4205">
+          <caret line="145" column="0" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
+          <folding>
+            <marker date="1480085327008" expanded="true" signature="83:259" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="145:186" placeholder="INSERT INTO category... " />
+            <marker date="1480085327008" expanded="true" signature="321:737" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="339:734" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="468:512" placeholder="UPDATE categ... " />
+            <marker date="1480085327008" expanded="true" signature="549:678" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="686:727" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="799:948" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="844:879" placeholder="DELETE FROM " />
+            <marker date="1480085327008" expanded="true" signature="1004:1287" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="1139:1220" placeholder="UPDATE produ... " />
+            <marker date="1480085327008" expanded="true" signature="1347:1493" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="1392:1427" placeholder="DELETE FROM " />
+            <marker date="1480085327008" expanded="true" signature="1577:1670" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="1738:1831" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="1907:2000" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="2072:3658" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="2797:2885" placeholder="SELECT COUNT... stock" />
+            <marker date="1480085327008" expanded="true" signature="2955:3143" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="2977:3135" placeholder="INSERT INTO stock... " />
+            <marker date="1480085327008" expanded="true" signature="3161:3259" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="3183:3250" placeholder="UPDATE stock... " />
+            <marker date="1480085327008" expanded="true" signature="3291:3571" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="3292:3569" placeholder="INSERT INTO stockmoves... " />
+            <marker date="1480085327008" expanded="true" signature="3718:5174" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="4310:4817" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="4856:5090" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="4857:5088" placeholder="INSERT INTO stockmoves... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stockclass.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3393">
+          <caret line="117" column="57" selection-start-line="117" selection-start-column="57" selection-end-line="117" selection-end-column="57" />
+          <folding>
+            <marker date="1480085327008" expanded="true" signature="83:259" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="145:186" placeholder="INSERT INTO category... " />
+            <marker date="1480085327008" expanded="true" signature="321:737" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="339:734" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="468:512" placeholder="UPDATE categ... " />
+            <marker date="1480085327008" expanded="true" signature="549:678" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="686:727" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="799:948" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="844:879" placeholder="DELETE FROM " />
+            <marker date="1480085327008" expanded="true" signature="1004:1287" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="1139:1220" placeholder="UPDATE produ... " />
+            <marker date="1480085327008" expanded="true" signature="1347:1493" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="1392:1427" placeholder="DELETE FROM " />
+            <marker date="1480085327008" expanded="true" signature="1577:1670" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="1738:1831" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="1907:2000" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="2072:3658" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="2797:2885" placeholder="SELECT COUNT... stock" />
+            <marker date="1480085327008" expanded="true" signature="2955:3143" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="2977:3135" placeholder="INSERT INTO stock... " />
+            <marker date="1480085327008" expanded="true" signature="3161:3259" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="3183:3250" placeholder="UPDATE stock... " />
+            <marker date="1480085327008" expanded="true" signature="3291:3571" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="3292:3569" placeholder="INSERT INTO stockmoves... " />
+            <marker date="1480085327008" expanded="true" signature="3718:5174" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="4310:4817" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="4856:5090" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="4857:5088" placeholder="INSERT INTO stockmoves... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/ide/ide-scripting.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/ide/ide-scripting.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stockclass.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3190">
+          <caret line="110" column="59" selection-start-line="110" selection-start-column="59" selection-end-line="110" selection-end-column="59" />
+          <folding>
+            <marker date="1480085327008" expanded="true" signature="83:259" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="145:186" placeholder="INSERT INTO category... " />
+            <marker date="1480085327008" expanded="true" signature="321:737" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="339:734" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="468:512" placeholder="UPDATE categ... " />
+            <marker date="1480085327008" expanded="true" signature="549:678" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="686:727" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="799:948" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="844:879" placeholder="DELETE FROM " />
+            <marker date="1480085327008" expanded="true" signature="1004:1287" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="1139:1220" placeholder="UPDATE produ... " />
+            <marker date="1480085327008" expanded="true" signature="1347:1493" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="1392:1427" placeholder="DELETE FROM " />
+            <marker date="1480085327008" expanded="true" signature="1577:1670" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="1738:1831" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="1907:2000" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="2072:3658" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="2797:2885" placeholder="SELECT COUNT... stock" />
+            <marker date="1480085327008" expanded="true" signature="2955:3143" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="2977:3135" placeholder="INSERT INTO stock... " />
+            <marker date="1480085327008" expanded="true" signature="3161:3259" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="3183:3250" placeholder="UPDATE stock... " />
+            <marker date="1480085327008" expanded="true" signature="3291:3571" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="3292:3569" placeholder="INSERT INTO stockmoves... " />
+            <marker date="1480085327008" expanded="true" signature="3718:5174" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="4310:4817" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="4856:5090" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="4857:5088" placeholder="INSERT INTO stockmoves... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addvoucher.php" />
+    <entry file="file://$PROJECT_DIR$/vouchersadd.php" />
+    <entry file="file://$PROJECT_DIR$/vouchers.php" />
+    <entry file="file://$PROJECT_DIR$/dbbackup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addvoucher.php" />
+    <entry file="file://$PROJECT_DIR$/vouchersadd.php" />
+    <entry file="file://$PROJECT_DIR$/vouchers.php" />
+    <entry file="file://$PROJECT_DIR$/dbbackup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addvoucher.php" />
+    <entry file="file://$PROJECT_DIR$/vouchersadd.php" />
+    <entry file="file://$PROJECT_DIR$/vouchers.php" />
+    <entry file="file://$PROJECT_DIR$/dbbackup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vouchersadd.php" />
+    <entry file="file://$PROJECT_DIR$/addvoucher.php" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/mysql.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15393">
+          <caret line="438" column="9" selection-start-line="438" selection-start-column="9" selection-end-line="438" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vouchers.php" />
+    <entry file="file://$PROJECT_DIR$/dbbackup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selectproduct.php" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/ide/ide-scripting.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stockclass.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="158" column="19" selection-start-line="158" selection-start-column="19" selection-end-line="158" selection-end-column="19" />
+          <folding>
+            <marker date="1480085327008" expanded="true" signature="83:259" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="145:186" placeholder="INSERT INTO category... " />
+            <marker date="1480085327008" expanded="true" signature="321:737" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="339:734" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="468:512" placeholder="UPDATE categ... " />
+            <marker date="1480085327008" expanded="true" signature="549:678" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="686:727" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="799:948" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="844:879" placeholder="DELETE FROM " />
+            <marker date="1480085327008" expanded="true" signature="1004:1287" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="1139:1220" placeholder="UPDATE produ... " />
+            <marker date="1480085327008" expanded="true" signature="1347:1493" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="1392:1427" placeholder="DELETE FROM " />
+            <marker date="1480085327008" expanded="true" signature="1577:1670" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="1738:1831" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="1907:2000" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="2072:3658" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="2797:2885" placeholder="SELECT COUNT... stock" />
+            <marker date="1480085327008" expanded="true" signature="2955:3143" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="2977:3135" placeholder="INSERT INTO stock... " />
+            <marker date="1480085327008" expanded="true" signature="3161:3259" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="3183:3250" placeholder="UPDATE stock... " />
+            <marker date="1480085327008" expanded="true" signature="3291:3571" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="3292:3569" placeholder="INSERT INTO stockmoves... " />
+            <marker date="1480085327008" expanded="true" signature="3718:5174" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="4310:4817" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="4856:5090" placeholder="..." />
+            <marker date="1480085327008" expanded="true" signature="4857:5088" placeholder="INSERT INTO stockmoves... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="43" selection-end-column="6" />
+          <folding>
+            <marker date="1495565506754" expanded="true" signature="365:393" placeholder="select bcode... banks" />
+            <marker date="1495565506754" expanded="true" signature="1044:1077" placeholder="select code,... bankbranch" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <last-edited>Simon Mbugua</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+          <order>
+            <scope name="Simon Mbugua" />
+          </order>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

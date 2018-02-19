@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="0d00b6e7-18f1-439b-ac92-99d4252f9303" name="192.168.1.70" url="http://192.168.1.70:8000/fleet">
+        <fileTransfer host="192.168.1.70" port="22" accessType="SFTP" password="dfdadfcbdfc4dfcedfc5dfd8dfcbdf98df9adf9bdf9c" username="supplyandservices">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
