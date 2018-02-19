@@ -11,7 +11,7 @@ while ( $row=mysql_fetch_array($datesquery)) {
   $id=$row['id'];
   $s=mysql_fetch_array(mysql_query("SELECT st.type_name as stype, s.national_id as natid ,s.accountno as bankacc ,s.bankcode as bcode FROM staff s  inner join stafftype st on st.id=s.staff_type  where s.id='$id'"));
     $bcode=$s['bcode'];
-    $b=mysql_fetch_array(mysql_query("SELECT b.bank as bank ,bb.bname as branch FROM staff s inner join bankbranch bb on bb.code=s.branchcode inner join banks b on b.bcode=s.bankcode where s.id='$id' "));
+    $b=mysql_fetch_array(mysql_query("SELECT b.bank as bank ,bb.bname as branch FROM staff s inner join bankbranch bb on bb.code=s.branchcode inner join banks b on b.bcode=s.bankcode inner join banks b1 on b.bcode=bb.bankCode where s.id='$id' "));
     $bank=$b['bank'];
     $stype=$s['stype'];
     $natid=$s['natid'];

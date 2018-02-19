@@ -67,7 +67,7 @@ $period=$_REQUEST['period'];
         <td><?php echo $s['sname']?> </td>
         <?php
         $id=$s['staffid'];
-        $bank=mysql_fetch_array(mysql_query("SELECT bb.bname as branch ,b.bank as bank ,s.accountno as accountno , s.accountname as accountname from staff s inner join banks b on b.bcode=s.bankcode inner join bankbranch bb on bb.code=s.branchcode where s.id='$id'"));
+        $bank=mysql_fetch_array(mysql_query("SELECT bb.bname as branch ,b.bank as bank ,s.accountno as accountno , s.accountname as accountname from staff s inner join banks b on b.bcode=s.bankcode inner join bankbranch bb on bb.code=s.branchcode inner join banks b1 on b.bcode=bb.bankcode where s.id='$id'"));
         ?>
         <td><?php echo $bank['bank']?> </td>
         <td><?php echo $bank['branch']?> </td>
