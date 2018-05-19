@@ -159,6 +159,6 @@ $pdf->addTVAs( $params, $tab_tva, $tot_prods);
 $pdf->addCadreEurosFrancs();
 */
 $pdf->Output();
-ob_end_flush();
 }
+ob_end_flush();
 ?>
