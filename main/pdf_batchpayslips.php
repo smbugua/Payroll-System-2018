@@ -37,7 +37,7 @@ $overtime=$row['overtime'];
 $pdf->addSociete( "Cuspid Dental",
                   "P.O BOX 59262-00100 \n" .
                   "Nairobi,Kenya \n".
-                  "email: info@uspiddental.co.ke \n" .
+                  "email: info@cuspiddental.co.ke \n" .
                   "Tel : 0702974551");
 $pdf->fact_dev( "MONTHLY","PAYSLIP" );
 $pdf->temporaire( "Cuspid Dental." );
