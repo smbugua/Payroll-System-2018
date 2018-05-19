@@ -23,10 +23,10 @@
         <div>
             <div>
 
-                <h1 class="logo-name">B+</h1>
+                <h1 class="logo-name">P+</h1>
 
             </div>
-            <h3>Welcome to Barlettah Employee Portal</h3>
+            <h3>Welcome to Techcube Employee Portal</h3>
            
             <p></p>
             <form class="m-t" role="form" action="#" method="post">

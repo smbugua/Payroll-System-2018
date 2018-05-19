@@ -26,7 +26,7 @@
                 <h1 class="logo-name">P+</h1>
 
             </div>
-            <h3>Welcome to Barlettah Payroll Manager</h3>
+            <h3>Welcome to Techcube Payroll Manager</h3>
            
             <p></p>
             <form class="m-t" role="form" action="signinclass.php?role=admin" method="post">
