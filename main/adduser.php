@@ -32,8 +32,6 @@ include('header.php');
                         <option value="0">Administrator</option>
                         <option value="1">Office Clerk</option>
                         <option value="2">Front Office</option>
-                        <option value="3">Molars</option>
-
                     </select>
                 </div>
                 <div class="form-group">
