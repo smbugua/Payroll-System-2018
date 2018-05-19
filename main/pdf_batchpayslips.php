@@ -34,13 +34,13 @@ $taxableincome=$row['taxableincome'];
 $totaldeductions=$row['totaldeductions'];
 $payrollno=$row['payrollno'];
 $overtime=$row['overtime'];
-$pdf->addSociete( "Barletta Holdings Ltd",
-                  "P.O BOX 1239-00200 \n" .
+$pdf->addSociete( "Cuspid Dental",
+                  "P.O BOX 59262-00100 \n" .
                   "Nairobi,Kenya \n".
-                  "email: barlettahltd@gmail.com \n" .
-                  "Tel : 0729036698 ");
+                  "email: info@uspiddental.co.ke \n" .
+                  "Tel : 0702974551");
 $pdf->fact_dev( "MONTHLY","PAYSLIP" );
-$pdf->temporaire( "Barletta Holdings Ltd." );
+$pdf->temporaire( "Cuspid Dental." );
 $pdf->addDate( "$date");
 $pdf->addClient("PAID");
 $pdf->addPageNumber("$period");

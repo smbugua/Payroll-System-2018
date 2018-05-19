@@ -1,4 +1,4 @@
-    <?php
+<?php
 ob_start();
 // (c) Xavier Nicolay
 // Exemple de génération de devis/facture PDF
