@@ -1,7 +1,7 @@
 <?php // rnfunctions.php
 error_reporting(E_ALL ^ E_DEPRECATED);
 $dbhost = 'localhost'; // Unlikely to require changing
-$dbname = 'cuspid_hr'; // Modify these...
+$dbname = 'barlettah'; // Modify these...
 $dbuser = 'root'; // ...variables according
 $dbpass = ''; // ...to your installation
 mysql_connect($dbhost, $dbuser, $dbpass) or die(mysql_error());

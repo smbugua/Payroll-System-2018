@@ -39,14 +39,15 @@ $len=count($staff);
 <table class="table table-bordered ">
 <h3 align="center"><font color="blue"  ><?php echo $sname?></font></h3>
 	<thead>
-		<th>Payroll No </th>
 		<th>Staff Name </th>
 		<th>Category </th>
 		<th>Salary </th>
-		<th>Deductions </th>
+		<th>Absenteeism </th>
 		<th>NHIF </th>
 		<th>NSSF </th>
 		<th>Advance </th>
+		<th>Surcharge </th>
+		<th>Helb </th>
 		<th>Total Deductions</th>
 	</thead>
 	<tbody class="details">
@@ -105,7 +106,6 @@ $nhif=1700;
 		?>
 	<tr>
 		<input class="hidden" name="id[]" value="<?php echo $s['id'] ?>">
-		<td><?php echo $s['p']?> </td>
 		<td><?php echo $s['s']?> </td>
 		<td><font color="red"><?php echo $sname ?></font> </td>
 		<td><?php echo $sal?> </td>
@@ -121,6 +121,8 @@ if ($sal<=20000) {
 		<td><input readonly="" =""  name="nssf[]" id="nssf" value="<?php echo $nssf?>" > </td>
 		<!--td><input readonly=""  name="advance[]" id="advance" value="<?php echo $amnt?>" > </td-->
 		<td><input  name="advance[]" id="advance" value="" required="" > </td>
+		<td><input  name="surch[]" id="sur" value="0" required="" > </td>
+		<td><input  name="helb[]" id="helb" value="0" required="" > </td>
 		<td><input readonly=""   name="tot[]" id="tot" value="0" > </td>
 		
 	</tr>
@@ -165,7 +167,9 @@ if ($sal<=20000) {
 			var nssf   = tr.find('#nssf').val();
 			var deds = tr.find('#deds').val();
 			var advance = tr.find('#advance').val();
-			var amount = parseFloat(nhif)+parseFloat(deds)+parseFloat(advance)+parseFloat(nssf);
+			var helb = tr.find('#helb').val();
+			var sur = tr.find('#sur').val();
+			var amount = parseFloat(nhif)+parseFloat(deds)+parseFloat(advance)+parseFloat(nssf)+parseFloat(sur)+parseFloat(helb);
 			tr.find('#tot').val(amount);
 			total();
 		});
