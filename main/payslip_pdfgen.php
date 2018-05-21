@@ -7,8 +7,14 @@ require('payslip_pdf.php');
 define('FPDF_FONTPATH','fonts/');
 $period=$_REQUEST['period'];
 $payrollid=$_REQUEST['payrollid'];
+$main=mysql_fetch_array(mysql_query("SELECT main_name as name ,main_location as location,main_tel as tel ,main_address as address, email from settings"));
+$companyname=$main['name'];
+$companyloc=$main['location'];
+$companyaddress=$main['address'];
+$companytel=$main['tel'];
+$companyemail=$main['email'];
 //QUERY ALL DETAILS
-$datesquery=mysql_query("SELECT pt.staffid as id, pt.payrollno as payrollno ,pt.sname as name ,pt.salary as basic ,pt.lunch as lunch,pt.commission as commission ,(pt.salary+pt.overtime+pt.commission+pt.allowance+pt.lunch) as gross,pt.nhif as nhif ,pt.nssf as nssf,pt.advance as advance,pt.tax as paye,pt.taxableincome as taxableincome,pt.totaldeductions as totaldeductions,pt.daterun as payrolldate,pt.overtime as overtime ,pt.allowance as allowance,pt.netpay as net FROM payroll_tbl pt  WHERE pt.payrollrun='$period' and pt.id='$payrollid'");
+$datesquery=mysql_query("SELECT pt.staffid as id, pt.payrollno as payrollno ,pt.sname as name ,pt.salary as basic ,pt.lunch as lunch,pt.commission as commission ,(pt.salary+pt.overtime+pt.commission+pt.allowance+pt.lunch) as gross,pt.nhif as nhif ,pt.nssf as nssf,pt.advance as advance,pt.tax as paye,pt.taxableincome as taxableincome,pt.totaldeductions as totaldeductions,pt.daterun as payrolldate,pt.overtime as overtime ,pt.allowance as allowance,pt.netpay as net,pt.surrcharge as surrcharge ,pt.helb as helb ,pt.deduction as absent FROM payroll_tbl pt  WHERE pt.payrollrun='$period' and pt.id='$payrollid'");
 while ( $row=mysql_fetch_array($datesquery)) {
   $id=$row['id'];
   $s=mysql_fetch_array(mysql_query("SELECT st.type_name as stype, s.national_id as natid ,s.accountno as bankacc ,s.bankcode as bcode FROM staff s  inner join stafftype st on st.id=s.staff_type  where s.id='$id'"));
@@ -31,6 +37,11 @@ $nhif=$row['nhif'];
 $nssf=$row['nssf'];
 $advance=$row['advance'];
 $paye=$row['paye'];
+$surcharge=$row['surrcharge'];
+$absent=$row['absent'];
+$helb=$row['helb'];
+$net=$row['net'];
+$commission=$row['commission'];
 $net=$row['net'];
 $taxableincome=$row['taxableincome'];
 $totaldeductions=$row['totaldeductions'];
@@ -38,13 +49,13 @@ $payrollno=$row['payrollno'];
 $overtime=$row['overtime'];
 $pdf = new PDF_Invoice( 'p', 'mm', 'A4' );
 $pdf->AddPage();
-$pdf->addSociete( "Cuspid Dental",
-                  "P.O BOX 1239-00200 \n" .
-                  "Nairobi,Kenya \n".
-                  "email: info@cuspiddental.co.ke \n" .
-                  "Tel : 0702974551 ");
+$pdf->addSociete( "$companyname",
+                  "$companyaddress \n" .
+                  "$companyloc \n".
+                  "email: $companyemail \n" .
+                  "Tel : $companytel ");
 $pdf->fact_dev( "MONTHLY","PAYSLIP" );
-$pdf->temporaire( "Cuspid Dental." );
+$pdf->temporaire("$companyname" );
 $pdf->addDate( "$date");
 $pdf->addClient("PAID");
 $pdf->addPageNumber("$period");
@@ -87,11 +98,17 @@ $y   += $size + 5;
 
 $line = array( 
                "Description"  => "DEDUCTIONS \n" .
+                                 "HELB \n".
+                                 "Surcharge \n".
+                                 "Absenteeism \n".
                                  "Advance \n".
                                  "NSSF \n".
                                  "NHIF \n".
                                  "PAYE \n",
                "Amount"      => "\n".
+                                " $helb\n".
+                                " $surcharge\n".
+                                " $absent\n".
                                 " $advance\n".
                                 " $nssf\n".
                                 " $nhif\n".
