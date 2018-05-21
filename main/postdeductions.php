@@ -26,7 +26,7 @@ $stafftyperesult=mysql_query("SELECT id,type_name from stafftype ");
 
  <div class="wrapper wrapper-content white-bg">
 <div class="row">
-<div class="col-sm-12">          
+<div class="col-lg-12">          
 <form  action="payrollclass.php?period=<?php echo $period?>&&action=postdeductions" method="post">
 <?php  while($staff=mysql_fetch_array($stafftyperesult)) {
 //$staff=mysql_fetch_array($stafftyperesult) ;
@@ -161,7 +161,7 @@ if ($sal<=20000) {
 
 
 
-	$('.details').delegate('#nhif,#deds,#advance,#nssf','keyup',function(){
+	$('.details').delegate('#nhif,#deds,#advance,#nssf,#sur,#helb','keyup',function(){
 			var tr = $(this).parent().parent();
 			var nhif = tr.find('#nhif').val();
 			var nssf   = tr.find('#nssf').val();

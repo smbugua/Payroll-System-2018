@@ -8,6 +8,7 @@ if ($_GET['action']=="postbenefits") {
 //check if run already
 
 
+mysql_query("INSERT INTO payrollruns (period)values('$period')");
 
 		for($i=0;$i<count($_POST['lunch']);$i++)
 			{
@@ -17,23 +18,23 @@ if ($_GET['action']=="postbenefits") {
 				$allowance= $_POST['allowance'][$i];
 				$commission= $_POST['commission'][$i];
 				$benefits= $_POST['ben'][$i];
-		
+				$date=date('Y-m-d');
 					$staff=mysql_fetch_array(mysql_query("SELECT * FROM staff WHERE id='$id'"));
 					$sname=$staff['staff_name'];
 					$sal=$staff['salary'];
 					$pno=$staff['payrollno'];
 //payroll runs table
+					/*
 $result=mysql_query("SELECT * from payrollruns WHERE period='$period'");
 $num=mysql_num_rows($result);
-if ($result=0) {
+if ($result='0') {
 	mysql_query("INSERT INTO payrollruns (period)values('$period')");
 }elseif ($result>0) {
 
 	mysql_query("UPDATE payrollruns set period='$period' where period='$period'");
 }
-
-
-mysql_query("INSERT INTO payroll_tbl(payrollrun,staffid,payrollno,sname,salary,lunch,allowance,commission,overtime,totalbenefits)values('$period','$id','$pno','$sname','$sal','$lunch','$allowance','$commission','$overtime','$benefits')");
+*/
+mysql_query("INSERT INTO payroll_tbl(payrollrun,staffid,payrollno,sname,salary,lunch,allowance,commission,overtime,totalbenefits,daterun)values('$period','$id','$pno','$sname','$sal','$lunch','$allowance','$commission','$overtime','$benefits','$date')");
 
 					
 				//echo "<script>alert('Success')</script>";
@@ -48,6 +49,8 @@ mysql_query("INSERT INTO payroll_tbl(payrollrun,staffid,payrollno,sname,salary,l
 				$nhif= $_POST['nhif'][$i];
 				$nssf= $_POST['nssf'][$i];
 				$advance= $_POST['advance'][$i];
+				$surch= $_POST['surch'][$i];
+				$helb= $_POST['helb'][$i];
 				$tot= $_POST['tot'][$i];
 				$date=date('Y-m-d');
 				//cal paye and taxable income
@@ -124,7 +127,7 @@ mysql_query("INSERT INTO payroll_tbl(payrollrun,staffid,payrollno,sname,salary,l
 				$net1=($sal+$bens)-($paye+$tot);
 				$net=round($net1,0);
 				//echo "$sname: $net <br>";
-				mysql_query(" UPDATE  payroll_tbl SET nhif='$nhif',nssf='$nssf',advance='$advance',totaldeductions='$tot',deduction='$deds',taxableincome='$taxableincome',tax='$paye',netpay='$net',daterun='$date' WHERE staffid='$id' and payrollrun='$period' ");
+				mysql_query(" UPDATE  payroll_tbl SET nhif='$nhif',nssf='$nssf',advance='$advance',totaldeductions='$tot',deduction='$deds',taxableincome='$taxableincome',tax='$paye',netpay='$net',daterun='$date',surrcharge='$surch',helb='$helb' WHERE staffid='$id' and payrollrun='$period' ");
 				
 				
 			}
