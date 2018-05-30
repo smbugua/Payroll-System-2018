@@ -45,7 +45,7 @@ $len=count($staff);
 		<th>Salary </th>
 		<th>Lunch </th>
 		<th>Allowance </th>
-		<th>Overtime </th>
+		<th>Bonus </th>
 		<th>Commission </th>
 		<th>Total Benefits </th>
 	</thead>

@@ -86,7 +86,7 @@ $line = array(
                "Description"  => "BENEFITS \n" .
                                  "Allowance \n".
                                  "Commission \n".
-                                 "Overtime \n".
+                                 "Bonus \n".
                                  "Lunch \n",
                "Amount"      => "\n".
                                 " $allowance\n".
