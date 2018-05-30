@@ -1,5 +1,5 @@
 <?php
-include('header.php');
+include('header.php'); 
 $id=$_REQUEST['id'];
 $sname=$_POST['sname'];
 $dept=$_POST['dept'];
