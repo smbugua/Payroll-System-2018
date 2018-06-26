@@ -66,12 +66,12 @@ $m1name = date("F", mktime(0, 0, 0, $m1, 10));
             <div class="col-md-2">
                 <div class="ibox float-e-margins">
                     <div class="ibox-title">
-                        <h5>Payroll Run Logs </h5>
+                        <h5>Bank Branches </h5>
                     </div>
                     <div class="ibox-content">
                         <h1 class="no-margins">
-                        <?php echo $serv['c']?></h1><br ><small> </small><br>
-                        <div class="font-bold text-navy"><br> <a href="saldetails.php" class="btn btn-danger">Payroll Report</a></div>
+                        <?php// echo $serv['c']?></h1><br ><small> </small><br>
+                        <div class="font-bold text-navy"><br> <a href="addbranch.php" class="btn btn-danger">Add Bank Branch</a></div>
                     </div>
                 </div>
             </div>
