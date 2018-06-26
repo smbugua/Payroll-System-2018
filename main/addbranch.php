@@ -48,11 +48,11 @@ include('header.php');
                         <div class="row" >
                             
                                <div class="form-group"><label>Branch Name</label> <input name="branch" type="text" required="" placeholder="Enter Branch Name" class="form-control"></div>
-                                    <div class="form-group"><label>Branch Code</label> <input name="branchcode" type="number" required="" placeholder="Enter Branch Code" class="form-control"></div>
+                                    <div class="form-group"><label>Branch Code</label> <input name="branchcode" type="text" required="" placeholder="Enter Branch Code" class="form-control"></div>
                                     
                                     <div class="form-group"><label>Branch </label>
                                                       <?php
-                                     $statusQuery="select id,bank from banks";
+                                     $statusQuery="select id,bank from banks order by bank asc";
                                         $statusResult=queryMysql($statusQuery);
                                         $no = mysql_num_rows($statusResult);
                                       echo "<select name='bank' type='text' class='form-control' >";

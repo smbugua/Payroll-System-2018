@@ -1,12 +1,15 @@
 <?php
 include('header.php');
 
-$bankcode=$_POST['bank'];
-$branch=$_POST['branch'];
-$code=$_POST['branchcode'];
+if ($_POST) {
 
-mysql_query("INSERT INTO bankbranch(bankCode,bname,code) values($bankcode,$branch,$code)");
+$bankcode= mysql_escape_string($_POST['bank']);
+$branch=mysql_escape_string($_POST['branch']);
+$code=mysql_escape_string($_POST['branchcode']);
 
-			echo "<script>alert('Branch added')</script>";
+mysql_query("INSERT INTO bankbranch(bankCode,bname,code)values('$bankcode','$branch','$code')");
+
+echo "<script>alert('Branch added')</script>";
 echo "<script>location.replace('addbranch.php')</script>";
+}
 ?>
