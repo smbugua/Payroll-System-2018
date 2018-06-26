@@ -7,11 +7,11 @@ if ($_GET['action']=="updatestaff") {
 		$sch1=sanitizeString($_POST['semail']);
 		$pname1=sanitizeString($_POST['stel']);
 		$pid1=sanitizeString($_POST['sstatus']);
-		//$amnt1=sanitizeString($_POST['stype']);
+		$stafftype=sanitizeString($_POST['stype']);
 		$nssfno=sanitizeString($_POST['nssf']);
 		$nhifno=sanitizeString($_POST['nhif']);
 		$pinno=sanitizeString($_POST['pinno']);
-		mysql_query("UPDATE staff SET staff_name='$std1',national_id='$bcode1',staff_email='$sch1',staff_telno='$pname1',status='$pid1',nhifno='$nhifno',nssfno='$nssfno',pinno='$pinno' WHERE id='$id' ");
+		mysql_query("UPDATE staff SET staff_name='$std1',national_id='$bcode1',staff_email='$sch1',staff_telno='$pname1',status='$pid1',nhifno='$nhifno',nssfno='$nssfno',pinno='$pinno',staff_type='$stafftype' WHERE id='$id' ");
 		echo "<script>location.replace('staffdetails.php')</script>";
 }elseif ($_GET['action']=="delete") {
 	$id=$_REQUEST['id'];

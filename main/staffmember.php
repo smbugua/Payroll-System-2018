@@ -111,14 +111,18 @@ $row=mysql_fetch_array(mysql_query("SELECT * FROM staff where id='$id'"));
 
 
                     <div class="form-group"><label>Job Description</label>
+                       <select name="stype" class="form-control">
                         <?php
                         $s=$row['staff_type'];
-                       $statusQuery = mysql_query("SELECT type_name from stafftype where id='$s'");
-                       $st=mysql_fetch_array($statusQuery);
+                       $statusQuery = mysql_query("SELECT id, type_name from stafftype ");
+
+                       while($st=mysql_fetch_array($statusQuery)){
                         $type=$st['type_name'];
                         ?>
 
-                    <input type="text" name="stype" class="form-control" readonly="" value="<?php echo $type ;?>">
+                    <option  value="<?php echo $st[0] ;?>"><?php echo $st[1]?></option>
+                    <?php }?>
+                    </select>
                     </div>
                 </div>
                 <button class="btn btn-sm btn-primary pull-right m-t-n-xs" type="submit"><strong>Save</strong></button>
