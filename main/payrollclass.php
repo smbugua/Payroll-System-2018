@@ -18,6 +18,7 @@ mysql_query("INSERT INTO payrollruns (period)values('$period')");
 				$allowance= $_POST['allowance'][$i];
 				$commission= $_POST['commission'][$i];
 				$benefits= $_POST['ben'][$i];
+				$bf= $_POST['bf'][$i];
 				$date=date('Y-m-d');
 					$staff=mysql_fetch_array(mysql_query("SELECT * FROM staff WHERE id='$id'"));
 					$sname=$staff['staff_name'];
@@ -34,7 +35,7 @@ if ($result='0') {
 	mysql_query("UPDATE payrollruns set period='$period' where period='$period'");
 }
 */
-mysql_query("INSERT INTO payroll_tbl(payrollrun,staffid,payrollno,sname,salary,lunch,allowance,commission,overtime,totalbenefits,daterun)values('$period','$id','$pno','$sname','$sal','$lunch','$allowance','$commission','$overtime','$benefits','$date')");
+mysql_query("INSERT INTO payroll_tbl(payrollrun,staffid,payrollno,sname,salary,lunch,allowance,commission,overtime,totalbenefits,daterun,balance_bf)values('$period','$id','$pno','$sname','$sal','$lunch','$allowance','$commission','$overtime','$benefits','$date','$bf')");
 
 					
 				//echo "<script>alert('Success')</script>";

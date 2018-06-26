@@ -44,6 +44,7 @@ $len=count($staff);
 		<th>Category </th>
 		<th>Salary </th>
 		<th>Lunch </th>
+		<th>Balance BF</th>
 		<th>Allowance </th>
 		<th>Bonus </th>
 		<th>Commission </th>
@@ -63,6 +64,7 @@ $len=count($staff);
 		<td><font color="red"><?php echo $sname ?></font> </td>
 		<td><?php echo $s['sal']?> </td>
 		<td><input required=""  name="lunch[]" id="lunch" value="" > </td>
+		<td><input required=""  name="bf[]" id="bf" value="0" > </td>
 		<td><input required=""  name="allowance[]" id="allowance" value="0" > </td>
 		<td><input required=""  name="overtime[]" id="overtime" value="0" > </td>
 		<td><input required=""  name="commission[]" id="commission" value="0" > </td>
@@ -114,13 +116,14 @@ document.getElementById('benefits').value=$sum.toFixed(2);
 }
 
 
-	$('.details').delegate('#lunch,#commission,#overtime,#allowance','keyup',function(){
+	$('.details').delegate('#bf,#lunch,#commission,#overtime,#allowance','keyup',function(){
 			var tr = $(this).parent().parent();
+			var bf = tr.find('#bf').val();
 			var lunch = tr.find('#lunch').val();
 			var allowance   = tr.find('#allowance').val();
 			var commission = tr.find('#commission').val();
 			var overtime = tr.find('#overtime').val();
-			var amount = parseFloat(lunch)+parseFloat(commission)+parseFloat(overtime)+parseFloat(allowance);
+			var amount = parseFloat(bf)+parseFloat(lunch)+parseFloat(commission)+parseFloat(overtime)+parseFloat(allowance);
 			tr.find('#benefits').val(amount);
 			total();
 		});
