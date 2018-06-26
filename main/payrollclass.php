@@ -79,8 +79,10 @@ mysql_query("INSERT INTO payroll_tbl(payrollrun,staffid,payrollno,sname,salary,l
 					
 				$taxableincome=($sal+$bens)-$nssf;	
 					}
-
-				if ($taxableincome<=12298) {
+					if ($taxableincome<=9999) {
+						$paye=0;
+					}
+				elseif ($taxableincome>9999 and $taxableincome<=12298) {
 				$paye1=round($taxableincome*.10,2 );
 				$paye2=$paye3=$paye4=$paye5=0;
 				$paye=($paye1+$paye2+$paye3+$paye4+$paye5)-1408;
