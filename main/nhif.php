@@ -81,7 +81,7 @@ $result=mysql_query("SELECT  * FROM payroll_tbl WHERE status='1' and payrollrun=
         <td></td>
         <td><strong>Total</strong></td>
         <?php
-        $rs=mysql_fetch_array(mysql_query("SELECT SUM(nhif) as saltot FROM payroll_tbl where payrollrun='$period'"));
+        $rs=mysql_fetch_array(mysql_query("SELECT SUM(nhif) as saltot FROM payroll_tbl where payrollrun='$period' and status='1'"));
         ?>
         <td><strong><font color="red"><?php echo $rs['saltot']?></font> </strong></td>
     </tfoot>

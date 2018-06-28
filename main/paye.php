@@ -62,7 +62,7 @@ $period=$_REQUEST['period'];
     </thead>
     <tbody>
     <?php 
-    $seresult=mysql_query("SELECT * FROM payroll_tbl where payrollrun='$period' ");
+    $seresult=mysql_query("SELECT * FROM payroll_tbl where payrollrun='$period' and status='1' ");
 
     while($s=mysql_fetch_array($seresult)){ ?>
     <tr>
@@ -94,7 +94,7 @@ $period=$_REQUEST['period'];
         <td></td>
         <td><strong>Total</strong></td>
         <?php
-        $rs=mysql_fetch_array(mysql_query("SELECT SUM(tax) as saltot FROM payroll_tbl where payrollrun='$period'"));
+        $rs=mysql_fetch_array(mysql_query("SELECT SUM(tax) as saltot FROM payroll_tbl where payrollrun='$period' and status='1' "));
         $tt=$rs['saltot'];
         $t=round($tt,0);
         ?>

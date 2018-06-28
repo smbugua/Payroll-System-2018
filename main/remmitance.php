@@ -59,7 +59,7 @@ $period=$_REQUEST['period'];
 
     <tbody>
     <?php 
-    $seresult=mysql_query("SELECT * FROM payroll_tbl  where payrollrun='$period' ");
+    $seresult=mysql_query("SELECT * FROM payroll_tbl  where payrollrun='$period' and status='1' ");
 
     while($s=mysql_fetch_array($seresult)){ ?>
     <tr>
@@ -97,7 +97,7 @@ $period=$_REQUEST['period'];
         <td></td>
         <td><strong>Total</strong></td>
         <?php
-        $rs=mysql_fetch_array(mysql_query("SELECT SUM(netpay) as saltot , sum(salary+overtime) as gross FROM payroll_tbl where payrollrun='$period'"));
+        $rs=mysql_fetch_array(mysql_query("SELECT SUM(netpay) as saltot , sum(salary+overtime) as gross FROM payroll_tbl where payrollrun='$period' and status='1'"));
         ?>
         <td><strong><font color="blue"><?php echo $rs['gross']?></font> </strong></td>        
         <td><strong><font color="red"><?php echo $rs['saltot']?></font> </strong></td>
