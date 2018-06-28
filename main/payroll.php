@@ -189,6 +189,57 @@ $result=mysql_query("SELECT DISTINCT * FROM payroll WHERE status='1' and payroll
                             
                         </div>
                         </form>
+                 <div class="ibox float-e-margins">
+                    <div class="ibox-title">
+                        <h5>RESET</h5>
+                        <div class="ibox-tools">
+                            <a class="collapse-link">
+                                <i class="fa fa-chevron-up"></i>
+                            </a>
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                <i class="fa fa-wrench"></i>
+                            </a>
+                            <ul class="dropdown-menu dropdown-user">
+                                <li><a href="#">Config option 1</a>
+                                </li>
+                                <li><a href="#">Config option 2</a>
+                                </li>
+                            </ul>
+                            <a class="close-link">
+                                <i class="fa fa-times"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ibox-content">
+                    <form action="payrollrest.php?period=<?php echo $period ?>"  method="post">
+                        <div class="row" >
+                            
+                             
+                                    <div class="form-group"><label>Payroll Period</label> 
+                                    <?php
+                                    $r=mysql_query("SELECT period from payrollruns order by id desc limit 5 ");
+
+                                    echo "<select name='period' class='form-control'>";
+                                    while($ss=mysql_fetch_array($r)){
+                                    $per=$ss['period'];                                     
+                                    echo "<option  align='center'>$per</option>";   
+                                    }
+                                    echo "</select>";
+                                    ?>
+                                    </div>
+
+                                    
+                                  <div class="col-sm-6">
+                              
+                                        <button class="btn btn-lg btn-danger  pull-right m-t-n-xs" type="submit"><strong>RESET</strong></button>
+                                    </div>
+                            
+                            </div>
+                          
+                            </div>
+                            
+                        </div>
+                        </form>
                     </div>
                 </div>
 
