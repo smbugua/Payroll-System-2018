@@ -80,10 +80,12 @@ mysql_query("INSERT INTO payroll_tbl(payrollrun,staffid,payrollno,sname,salary,l
 						$taxableincome=($sal+$bens)-$nssf;
 					}elseif ($sal>13000) {
 					
-				$taxableincome=($sal+$bens)-$nssf;	
+				
 					}endif;*/
-					$taxableincome=getTaxableIncome($id,$nssf,$period);
+					//$taxableincome=getTaxableIncome($id,$nssf,$period);
+					$taxableincome=($sal+$bens)-$nssf;	
 
+					
 			if ($taxableincome<=9999) {
 						$paye=0;
 					}
