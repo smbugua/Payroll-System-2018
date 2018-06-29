@@ -71,6 +71,9 @@ mysql_query("INSERT INTO payroll_tbl(payrollrun,staffid,payrollno,sname,salary,l
 					$pno=$staff['payrollno'];
 					$rates=mysql_fetch_array(mysql_query("SELECT totalbenefits FROM payroll_tbl WHERE staffid='$id'"));
 					$bens=$rates['totalbenefits'];
+
+					$p=mysql_fetch_array(mysql_query("SELECT period from payrollruns order by id desc limit 1"));
+					$period=$p[0];
 					//$paye1=$paye2=$paye3=$paye4=$paye5=0;
 			/*		if ($sal<=13000) {
 
