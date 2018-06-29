@@ -71,7 +71,7 @@ mysql_query("INSERT INTO payroll_tbl(payrollrun,staffid,payrollno,sname,salary,l
 					$sname=$staff['staff_name'];
 					$sal=$staff['salary'];
 					$pno=$staff['payrollno'];
-					$rates=mysql_fetch_array(mysql_query("SELECT totalbenefits FROM payroll_tbl WHERE staffid='$id' and period='$period'"));
+					$rates=mysql_fetch_array(mysql_query("SELECT totalbenefits FROM payroll_tbl WHERE staffid='$id' and payrollrun='$period'"));
 					$bens=$rates['totalbenefits'];
 					//$comm=$rates['commission'];
 					//$paye1=$paye2=$paye3=$paye4=$paye5=0;
