@@ -61,7 +61,7 @@ function longdate($timestamp)
 return date("l F jS Y", $timestamp);
 }
 function getTaxableIncome($staffid,$nssf){
-	$r=mysql_fetch_array(mysql_query("SELECT salary,totalbenefits FROM payroll_tbl where staffid='$id'"));
+	$r=mysql_fetch_array(mysql_query("SELECT salary,totalbenefits FROM payroll_tbl where staffid='$staffid'"));
 	$bens=$r['totalbenefits'];
 	$salary=$r['salary'];
 	$taxableincome=($bens+$salary)-$nssf;
