@@ -72,14 +72,16 @@ mysql_query("INSERT INTO payroll_tbl(payrollrun,staffid,payrollno,sname,salary,l
 					$rates=mysql_fetch_array(mysql_query("SELECT totalbenefits FROM payroll_tbl WHERE staffid='$id'"));
 					$bens=$rates['totalbenefits'];
 					//$paye1=$paye2=$paye3=$paye4=$paye5=0;
-					if ($sal<=13000) {
+			/*		if ($sal<=13000) {
 
 						$taxableincome=($sal+$bens)-$nssf;
 					}elseif ($sal>13000) {
 					
 				$taxableincome=($sal+$bens)-$nssf;	
-					}
-					if ($taxableincome<=9999) {
+					}endif;*/
+					$taxableincome=getTaxableIncome($id,$nssf);
+
+			if ($taxableincome<=9999) {
 						$paye=0;
 					}
 				elseif ($taxableincome>9999 and $taxableincome<=12298) {
