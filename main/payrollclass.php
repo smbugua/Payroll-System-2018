@@ -79,7 +79,7 @@ mysql_query("INSERT INTO payroll_tbl(payrollrun,staffid,payrollno,sname,salary,l
 					
 				$taxableincome=($sal+$bens)-$nssf;	
 					}endif;*/
-					$taxableincome=getTaxableIncome($id,$nssf);
+					$taxableincome=getTaxableIncome($id,$nssf,$period);
 
 			if ($taxableincome<=9999) {
 						$paye=0;
