@@ -58,12 +58,14 @@ $result=mysql_query("SELECT DISTINCT * FROM payroll WHERE status='1' and payroll
                              
                                     <div class="form-group"><label>Payroll Period</label> 
                                     <?php
-                                    $m=date('m');
                                     $y=date('Y');
-                                    echo "<select name='period' class='form-control'>";
-                                    echo "<option  align='center'>$y-$m</option>";
+                                    echo "<select class='form-control' name='period'>";
+                                      for ($i = 0; $i < 12;   $i++) {
+                                     $date_str = date('m', strtotime("+ $i months"));
+                                    echo "<option>".$y."-".$date_str ."</option>";
+                                    }
                                     echo "</select>";
-                                    ?>
+                                    ?> 
                                     </div>
 
                                     
@@ -109,12 +111,14 @@ $result=mysql_query("SELECT DISTINCT * FROM payroll WHERE status='1' and payroll
                              
                                     <div class="form-group"><label>Payroll Period</label> 
                                     <?php
-                                    $m=date('m');
                                     $y=date('Y');
-                                    echo "<select name='period' class='form-control'>";
-                                    echo "<option  align='center'>$y-$m</option>";
+                                    echo "<select class='form-control' name='period'>";
+                                      for ($i = 0; $i < 12;   $i++) {
+                                     $date_str = date('m', strtotime("+ $i months"));
+                                    echo "<option>".$y."-".$date_str ."</option>";
+                                    }
                                     echo "</select>";
-                                    ?>
+                                    ?> 
                                     </div>
 
                                     
@@ -169,12 +173,14 @@ $result=mysql_query("SELECT DISTINCT * FROM payroll WHERE status='1' and payroll
                              
                                     <div class="form-group"><label>Payroll Period</label> 
                                     <?php
-                                    $m=date('m');
                                     $y=date('Y');
-                                    echo "<select name='period' class='form-control'>";
-                                    echo "<option  align='center'>$y-$m</option>";
+                                    echo "<select class='form-control' name='period'>";
+                                      for ($i = 0; $i < 12;   $i++) {
+                                     $date_str = date('m', strtotime("+ $i months"));
+                                    echo "<option>".$y."-".$date_str ."</option>";
+                                    }
                                     echo "</select>";
-                                    ?>
+                                    ?> 
                                     </div>
 
                                     
