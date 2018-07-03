@@ -71,7 +71,7 @@ mysql_query("INSERT INTO payroll_tbl(payrollrun,staffid,payrollno,sname,salary,l
 					$sname=$staff['staff_name'];
 					$sal=$staff['salary'];
 					$pno=$staff['payrollno'];
-					$rates=mysql_fetch_array(mysql_query("SELECT commission,allowance,balance_bf,lunch,totalbenefits FROM payroll_tbl WHERE staffid='$id' and payrollrun874r='$period'"));
+					$rates=mysql_fetch_array(mysql_query("SELECT commission,allowance,balance_bf,lunch,totalbenefits FROM payroll_tbl WHERE staffid='$id' and payrollrun='$period'"));
 					$bens=$rates['totalbenefits'];
 					$comm=$rates['commission'];
 					$allowance=$rates['allowance'];
@@ -85,7 +85,7 @@ mysql_query("INSERT INTO payroll_tbl(payrollrun,staffid,payrollno,sname,salary,l
 				
 					}endif;*/
 					//$taxableincome=getTaxableIncome($id,$nssf,$period);
-					$taxableincome=($sal+$comm+$allowance+$bf)-$nssf;	
+					$taxableincome=($sal+$bens)-$nssf;	
 
 
 			if ($taxableincome<=9999) {

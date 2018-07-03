@@ -43,11 +43,11 @@ $len=count($staff);
 		<th>Staff Name </th>
 		<th>Category </th>
 		<th>Salary </th>
-		<th>Lunch </th>
+		<th>Commission </th>
 		<th>Balance BF</th>
 		<th>Allowance </th>
 		<th>Bonus </th>
-		<th>Commission </th>
+		<th class="hidden">Commission </th>
 		<th>Total Benefits </th>
 	</thead>
 	<tbody class="details">
@@ -67,7 +67,7 @@ $len=count($staff);
 		<td><input required=""  name="bf[]" id="bf" value="0" > </td>
 		<td><input required=""  name="allowance[]" id="allowance" value="0" > </td>
 		<td><input required=""  name="overtime[]" id="overtime" value="0" > </td>
-		<td><input required=""  name="commission[]" id="commission" value="0" > </td>
+		<td class="hidden"><input required=""  name="commission[]" id="commission" value="0" > </td>
 		<td><input readonly=""   name="ben[]" id="benefits" value="0" > </td>
 		
 	</tr>
