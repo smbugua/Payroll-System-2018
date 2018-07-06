@@ -57,17 +57,12 @@ $len=count($staff);
 	while($s=mysql_fetch_array($seresult)){ 
 		$sid=$s['id'];
 		//get advance
-		$adv=mysql_fetch_array(mysql_query("SELECT SUM(amount) AS a FROM empvsadvances WHERE empid='$sid' and payrollPeriod='$period' "));
+		$adv=mysql_fetch_array(mysql_query("SELECT totalbenefits as bens FROM payroll_tbl WHERE staffid='$sid' and payrollrun='$period' "));
 
-		$amnt=$adv['a'];
-		if ($amnt>0) {
-		
-		$amnt=$adv['a'];
-		}elseif ($amnt<=0) {
-		
-		$amnt=0;
-		}
-$sal=$s['sal'];
+		$amnt=$adv['bens'];
+
+	$sal1=$s['sal'];	
+$sal=$sal1+$amnt;
 if ($sal<=5999) {
 $nhif=150;			
 }elseif ($sal>5999 and $sal<=7999) {
@@ -108,13 +103,13 @@ $nhif=1700;
 		<input class="hidden" name="id[]" value="<?php echo $s['id'] ?>">
 		<td><?php echo $s['s']?> </td>
 		<td><font color="red"><?php echo $sname ?></font> </td>
-		<td><?php echo $sal?> </td>
+		<td><?php echo $sal1?> </td>
 		<td><input required=""  name="deds[]" id="deds" value=""  required=""> </td>
 		<td><input readonly=""  name="nhif[]" id="nhif" value="<?php echo $nhif?>" > </td>
 <?php 
-if ($sal<=20000) {
+if ($sal1<=20000) {
 	$nssf=200;
-}elseif ($sal>20000) {
+}elseif ($sal1>20000) {
 	$nssf=1080;
 }
 ?>		
