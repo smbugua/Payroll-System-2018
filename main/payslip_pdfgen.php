@@ -85,9 +85,9 @@ $y   += $size + 5;
 $line = array( 
                "Description"  => "BENEFITS \n" .
                                  "Allowance \n".
-                                 "Commission \n".
+                                 "Lunch \n".
                                  "Bonus \n".
-                                 "Lunch \n",
+                                 "Commission \n",
                "Amount"      => "\n".
                                 " $allowance\n".
                                 " $commission\n".
@@ -98,6 +98,7 @@ $y   += $size + 5;
 
 $line = array( 
                "Description"  => "DEDUCTIONS \n" .
+                                  "\n".
                                  "HELB \n".
                                  "Surcharge \n".
                                  "Absenteeism \n".
@@ -106,6 +107,7 @@ $line = array(
                                  "NHIF \n".
                                  "PAYE \n",
                "Amount"      => "\n".
+                                "\n".
                                 " $helb\n".
                                 " $surcharge\n".
                                 " $absent\n".
