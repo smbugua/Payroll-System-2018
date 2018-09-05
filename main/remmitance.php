@@ -55,7 +55,9 @@ $period=$_REQUEST['period'];
         <th>Account Name</th>
         <th>Gross</th>
         <th>Net</th>  
-        <th>Payslip</th>  </thead>
+        <th>Payslip</th> 
+        <th>Sms</th> 
+         </thead>
 
     <tbody>
     <?php 
@@ -82,7 +84,8 @@ $period=$_REQUEST['period'];
 	?>
         <td><?php echo $gross ?> </td>
         <td><?php echo $s['netpay']?> </td>
-        <td><a href="payslip_pdfgen.php?payrollid=<?php echo $s['id']?>&&period=<?php echo $period?>"  class="btn btn-success"><i class="fa fa-edit"> Payslip</i></a></td>
+        <td><a href="payslip_pdfgen.php?payrollid=<?php echo $s['id']?>&&period=<?php echo $period?>"  class="btn btn-success btn-xs"><i class="fa fa-edit"> Payslip</i></a></td>
+        <td><a href="smssal.php?payrollid=<?php echo $s['id']?>&&period=<?php echo $period?>"  class="btn btn-primary btn-xs"><i class="fa fa-phone"> SMS</i></a></td>
     </tr>
     <?php }?>   
     <tr>
