@@ -21,9 +21,10 @@ mysql_query("INSERT INTO payrollruns (period)values('$period')");
 				$bf= $_POST['bf'][$i];
 				$date=date('Y-m-d');
 					$staff=mysql_fetch_array(mysql_query("SELECT * FROM staff WHERE id='$id'"));
-					$sname=$staff['staff_name'];
+					$sname=mysql_escape_string($staff['staff_name']);
 					$sal=$staff['salary'];
 					$pno=$staff['payrollno'];
+					//echo $id ."".$sname ."".$sal ."<br>";
 //payroll runs table
 					/*
 $result=mysql_query("SELECT * from payrollruns WHERE period='$period'");
@@ -43,7 +44,7 @@ mysql_query("INSERT INTO payroll_tbl(payrollrun,staffid,payrollno,sname,salary,l
 				//echo "<script>alert('Success')</script>";
 			}
 			echo "<script>alert('Success Benefits Posted')</script>";
-				echo "<script>location.replace('payroll.php')</script>";
+			//	echo "<script>location.replace('payroll.php')</script>";
 }elseif ($_GET['action']=="postdeductions") {
 	for($i=0;$i<count($_POST['deds']);$i++)
 			{
